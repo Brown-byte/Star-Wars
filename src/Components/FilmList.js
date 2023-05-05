@@ -32,16 +32,16 @@ const FilmList = () => {
     }
  
   return (
-    <div>
+    <div className='first'>
         {data && data.map(function(movies){
             return (
                 <div  key = {movies.id} className="FilmList">
-                    <div>
+                    <div className='Cards'>
                       
                       <h3 className='title'>{movies.title}</h3>
                       <p className='when'>{new Date(movies.release_date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
                       <p className='opening-crawl'>{reduceLength(movies.opening_crawl, 260)}</p>
-                      <hr/>
+                      <hr className='line'/>
                       <p className='info'>More info</p>
                     
                     </div>
