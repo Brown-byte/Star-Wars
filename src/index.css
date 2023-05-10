@@ -17,7 +17,9 @@ body{
 
 .logo{
   width: 1000px;
-  height: 80px;
+  height: 70px;
+  padding-left: 110px;
+  margin-top: 15px;
 }
 
 .title{
