@@ -1,4 +1,103 @@
-.FilmList{
-  border: 1px solid red;
+
+.first{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 40px;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+.Cards{
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.logo{
+  width: 1000px;
+  height: 70px;
+  padding-left: 110px;
+  margin-top: 15px;
+}
+
+.title{
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+}
+
+.when{
+  color: grey;
+  font-family:"Open Sans", sans-serif;
+}
+
+.opening-crawl{
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+.line{
+  color: rgb(206, 44, 44);
+  width: 100%;
+ 
+}
+
+.info{
+  color: rgb(241, 227, 31);
+  font-family:"Open Sans", sans-serif;
+}
+
+.FilmList:nth-child(1){
+  
+  background-image: url(https://finmavis.github.io/swapi-task/static/media/bg-card-1.0c96fd00.png);
+  border-radius: 6px;
+  margin: 10px;
+  height: 370px;
+ 
+
+
+}
+
+.FilmList:nth-child(2){
+  background-image: url(https://finmavis.github.io/swapi-task/static/media/bg-card-2.b0a7b209.png);
+  margin: 10px;
+  border-radius: 6px;
+  height: 370px;
+  
+}
+
+.FilmList:nth-child(3){
+  background-image: url(https://finmavis.github.io/swapi-task/static/media/bg-card-3.1914d853.png);
+  margin: 10px;
+  border-radius: 6px;
+  height: 370px;
+}
+
+.FilmList:nth-child(4){
+  background-image: url(https://finmavis.github.io/swapi-task/static/media/bg-card-4.c21c4d4b.png);
+  margin: 10px;
+  border-radius: 6px;
+  height: 370px;
+}
+
+.FilmList:nth-child(5){
+background-image: url(https://finmavis.github.io/swapi-task/static/media/bg-card-5.67d061d6.png);
+margin: 10px;
+border-radius: 6px;
+height: 370px;
+}
+
+.FilmList:nth-child(6){
+ background-image: url(https://finmavis.github.io/swapi-task/static/media/bg-card-6.b4fea25d.png);
+ margin: 10px;
+ border-radius: 6px;
+ height: 370px;
+}
+
+.FilmList:hover{
+border: 2px solid rgb(27, 120, 242);
 
 }
