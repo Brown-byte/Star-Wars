@@ -36,9 +36,9 @@ const MovieDetail = () => {
         </div>
 
         <div>
-          {allCharacters.map((name) =>{
+          {allCharacters.map((name) =>(
             <li>{name}</li>
-          })}
+          ))}
         </div>
       
       </div>
